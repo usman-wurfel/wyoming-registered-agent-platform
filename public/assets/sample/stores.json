@@ -1,0 +1,32 @@
+[
+    {
+      "zipcode": "60020",
+      "store_name": "Jewel-Osco Routes 12 & 134",
+      "store_location": "1350 US Route 12, Fox Lake, IL 60020",
+      "store_logo":"",
+      "category": "BabyCare",
+      "sub_category": "Formula&BabyFood",
+      "product_title": "Similac360TotalCareInfantFormulaPowder-30.8Oz",
+      "regular_price": "45.99",
+      "sale_price": "45.99",
+      "weight": "",
+      "image_url": "https: //images.albertsons-media.com/is/image/ABS/970483318?$ng-ecom-pdp-desktop$&defaultImage=Not_Available",
+      "url": "https: //www.jewelosco.com/shop/product-details.970483318.html",
+      "crawl_date": "2023-05-17"
+    },
+    {
+      "zipcode": "60020",
+      "store_name": "Jewel-OscoRoutes12&134",
+      "store_location": "1350USRoute12,     FoxLake,     IL60020",
+      "store_logo":"",
+      "category": "Baby Care",
+      "sub_category": "Formula & Baby Food",
+      "product_title": "Earths Best Sensitivity Formula - 23.2 Oz",
+      "regular_price": "34.49",
+      "sale_price": "34.49",
+      "weight": "",
+      "image_url": "https://images.albertsons-media.com/is/image/ABS/960110144?$ng-ecom-pdp-desktop$&defaultImage=Not_Available",
+      "url": "https://www.jewelosco.com/shop/product-details.960110144.html",
+      "crawl_date": "2023-05-17"
+    }
+  ]

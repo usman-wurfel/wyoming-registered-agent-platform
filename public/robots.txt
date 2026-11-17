@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /private/
+Disallow: /secret/
+Sitemap: https://wycra.webexert.com/sitemap.xml

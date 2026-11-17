@@ -1,0 +1,138 @@
+address,zipcode,store
+"3243 W 115th Street, Merrionette Park, IL ",60803,JEWEL
+"1202 State Street, Lemont, IL ",60439,JEWEL
+"14200 S Bell Road, Homer Glen, IL ",60491,JEWEL
+"345 S Rand Road, Lake Zurich, IL",60047,JEWEL
+"966 IL Route 59, Antioch, IL",60002,JEWEL
+"1350 US Route 12, Fox Lake, IL",60020,JEWEL
+"17117 S Harlem Avenue, Tinley Park, IL",60477,JEWEL
+"763 E 162nd Street, South Holland, IL",60473,JEWEL
+"3220 Chicago Road, South Chicago Heights, IL",60411,JEWEL
+"17930 Wolf Road, Orland Park, IL",60467,JEWEL
+"5616 W 159th Street, Oak Forest, IL",60452,JEWEL
+"475 N Nelson Road, New Lenox, IL",60451,JEWEL
+"2021 E Laraway Road, New Lenox, IL",60451,JEWEL
+"16625 W 159th Street, Lockport, IL",60441,JEWEL
+"3153 W 183rd Street, Homewood, IL",60430,JEWEL
+"17705 S Halsted Street, Homewood, IL",60430,JEWEL
+"21164 S La Grange Road, Frankfort, IL ",60423,JEWEL
+"1300 S Naper Boulevard, Naperville, IL",60540,MARIANO'S
+"21001 S La Grange Road, Frankfort, IL",60423,MARIANO'S
+"2559 W 95th Street, Evergreen Park, IL",60805,MARIANO'S
+"3025 E New York Street, Aurora, IL",60504,MARIANO'S
+"950 Brook Forest Avenue Shorewood, IL",60404,MARIANO'S
+"9504 142nd Street, Orland Park, IL",60462,MARIANO'S
+"150 W 63rd Street, Westmont, IL",60559,MARIANO'S
+"3020 Wolf Road, Westchester, IL",60154,MARIANO'S
+"345 W Roosevelt Road, Lombard, IL",60148,MARIANO'S
+"4700 Gilbert Avenue, Western Springs, IL",60558,MARIANO'S
+"40 S Halsted Street, Chicago, IL",60661,MARIANO'S
+"3857 S Dr. Martin Luther King Junior Drive, Chicago, IL",60653,MARIANO'S
+"3145 S Ashland Avenue, Chicago, IL",60608,MARIANO'S
+"625 S Main Street, Wheaton, IL",60187,MARIANO'S
+"1615 S Clark Street, Chicago, IL",60616,MARIANO'S
+"1720 N Milwaukee, Avenue, Vernon Hills, IL",60061,MARIANO'S
+"2575 W Golf Road, Hoffman Estates, IL",60169,MARIANO'S
+"105 Northwest Highway, Crystal Lake, IL",60014,MARIANO'S
+"7601 Kingery Highway Willowbrook, IL",60527,TARGET
+"4120 W 95th Street, Oak Lawn, IL",60453,TARGET
+"13460 Archer Avenue, Lemont, IL",60439,TARGET
+"5071 Cal Sag Road, Crestwood, IL",60418,TARGET
+"2901 S Cicero Avenue, Cicero, IL",60804,TARGET
+"1111 Brook Forest Avenue, Shorewood, IL",60404,TARGET
+"2701 Plainfield Road, Joliet, IL",60435,TARGET
+"3020 U.S. 34 Oswego, IL",60543,TARGET
+"401 W Irving Park Road, Wood Dale, IL ",60191,TARGET
+"7000 Mannheim Road, Rosemont, IL",60018,TARGET
+"6150 W Touhy Avenue, Niles, IL",60714,TARGET
+"1188 W Boughton Road, Bolingbrook, IL",60440,TARGET
+"1800 Orchard Gateway Boulevard, North Aurora, IL",60542,TARGET
+"3885 E Main Street, St Charles, IL",60174,TARGET
+"679 E Dundee Road, Palatine, IL",60074,TARGET
+"239 W Golf Road, Niles, IL ",60714,TARGET
+"1700 E Rand Road, Arlington Heights, IL",60004,TARGET
+"555 S Rand Road, Lake Zurich, IL",60047,TARGET
+"2621 W Schaumburg Road, Schaumburg, IL",60194,TARGET
+"1235 E Higgins Road, Schaumburg, IL",60173,TARGET
+"300 S Randall Road, Elgin, IL",60123,TARGET
+"5580 Northwest Highway, Crystal Lake, IL",60014,TARGET
+"2800 N Sutton Road, Hoffman Estates, IL",60192,TARGET
+"3050 N Lewis Avenue, Waukegan, IL",60087,TARGET
+"2370 E Lincoln Highway, New Lenox, IL",60451,TARGET
+"800 Broadview Village Square, Broadview, IL",60155,SUPER TARGET
+"130 S Mannheim Road, Hillside, IL",60162,SUPER TARGET
+"3100 W IL Route 60, Mundelein, IL",60060,SUPER TARGET
+"750 S Randal Road, Algonquin, IL",60102,SUPER TARGET
+"7300 W 191st Street, Tinley Park, IL",60487,SUPER TARGET
+"1652 Beecher Road, Yorkville, IL",60560,SUPER TARGET
+"28201 Diehl Road, Warrenville, IL",60555,SUPER TARGET
+"313 E Townline Road, Vernon Hills, IL",60061,SUPER TARGET
+"1001 S Sutton Road, Streamwood, IL",60107,SUPER TARGET
+"1951 W Jefferson Avenue, Naperville, IL",60540,SUPER TARGET
+"1129 Lake Street, Oak Park, IL",60301,CHICAGO TARGET
+"4955 Dempster Street, Skokie, IL",60077,CHICAGO TARGET
+"4050 N Harlem Avenue, Norridge, IL",60706,CHICAGO TARGET
+"2209 Howard Street, Evanston, IL",60202,CHICAGO TARGET
+"1616 Sherman Avenue, Evanston, IL ",60201,CHICAGO TARGET
+"2939 W Addison Street, Chicago, IL",60618,CHICAGO TARGET
+"2656 N Elston Avenue, Chicago, IL",60647,CHICAGO TARGET
+"2434 N Sacramento Avenue, Chicago, IL ",60647,CHICAGO TARGET
+"2112 W Peterson Avenue, Chicago, IL",60659,CHICAGO TARGET
+"2650 N Clark Street, Chicago, IL",60614,CHICAGO TARGET
+"6422 N Sheridan Road, Chicago, IL",60626,CHICAGO TARGET
+"4631 W Foster Avenue, Chicago, IL ",60630,CHICAGO TARGET
+"555 W Webster Avenue, Chicago, IL",60614,CHICAGO TARGET
+"1101 W Jackson Boulevard, Chicago, IL ",60607,CHICAGO TARGET
+"630 N Lasalle Drive, Chicago, IL ",60654,CHICAGO TARGET
+"4466 N Broadway Street, Chicago, IL",60640,CHICAGO TARGET
+"6525 W Diversey Avenue, Chicago, IL",60707,CHICAGO TARGET
+"7100 S Cicero Avenue, Chicago, IL",60629,CHICAGO TARGET
+"4433 S Pulaski Road, Chicago, IL",60632,CHICAGO TARGET
+"1940 W 33rd Street, Chicago, IL",60608,CHICAGO TARGET
+"1154 S Clark Street, Chicago, IL",60605,CHICAGO TARGET
+"1346 E 53rd Street, Chicago, IL",60615,CHICAGO TARGET
+"401 E Illinois Street, Chicago, IL",60611,TARGET SF
+"3204 N Clark Street, Chicago, IL ",60614,TARGET SF
+"3300 N Ashland Avenue, Chicago, IL ",60657,TARGET SF
+"115 N Randall Road, Batavia, IL ",60510,TARGET GREATLAND
+"50 E North Avenue, Villa Park, IL",60181,TARGET GREATLAND
+"2333 63rd Street, Woodridge, IL",60517,TARGET GREATLAND
+"601 S County Farm Road, Wheaton, IL",60187,TARGET GREATLAND
+"1400 E Lake Cook Road, Wheeling, IL",60090,TARGET GREATLAND
+"12800 IL Route 59, Plainfield, IL",60585,TARGET GREATLAND
+"15850 S 94th Avenue, Orland Park, IL",60462,TARGET GREATLAND
+"850 W North Avenue, Melrose Park, IL",60160,TARGET GREATLAND
+"60 Yorktown Shopping Center, Lombard, IL ",60148,TARGET GREATLAND
+"9250 Joliet Road, Hodgkins, IL",60525,TARGET GREATLAND
+"2099 Skokie Valley Road, Highland Park, IL",60035,TARGET GREATLAND
+"6601 Grand Avenue, Gurnee, IL",60031,TARGET GREATLAND
+"2241 Willow Road, Glenview, IL",60025,TARGET GREATLAND
+"2189 75th Street, Darien, IL",60561,WALMART SUPER CENTER
+"4700 135th Street, Crestwood, IL",60418,WALMART SUPER CENTER
+"10900 S Doty Avenue, Chicago, IL",60628,WALMART SUPER CENTER
+"200 S Bolingbrook Drive, Bolingbrook, IL",60440,WALMART SUPER CENTER
+"2500 W 95th Street, Evergreen Park, IL",60805,WALMART SUPER CENTER
+"9450 Joliet Road, Hodgkins, IL",60525,WALMART SUPER CENTER
+"3S100 IL Route 53, Glen Ellen, IL ",60137,WALMART SUPER CENTER
+"3320 S Cicero Avenue, Cicero, IL",60804,WALMART SUPER CENTER
+"7050 S Cicero Avenue, Bedford Park, IL",60638,WALMART SUPER CENTER
+"1401 IL Route 59, Shorewood, IL",60431,WALMART SUPER CENTER
+"2424 W Jefferson Street, Joliet, IL",60435,WALMART SUPER CENTER
+"420 N Weber Road, Romeoville, IL",60446,WALMART SUPER CENTER
+"2300 U.S. 34 Oswego, IL",60543,WALMART SUPER CENTER
+"4005 167th Street, Country Club Hills, IL",60478,WALMART SUPER CENTER
+"2000 Orchard Road, Montgomery, IL",60538,WALMART SUPER CENTER
+"900 IL Route 83, Villa Park, IL",60181,WALMART SUPER CENTER
+"801 Meacham Road, Elk Grove Village, IL",60007,WALMART SUPER CENTER
+"1300 Des Plaines Avenue, Forest Park, IL",60130,WALMART SUPER CENTER
+"9265 159th Street, Orland Hills, IL",60487,WALMART SUPER CENTER
+"16241 Farrell Road, Lockport, IL",60441,WALMART SUPER CENTER
+"501 E Lincoln Highway, New Lenox, IL",60451,WALMART SUPER CENTER
+"22401 Central Avenue, Richton Park, IL",60471,WALMART SUPER CENTER
+"21000 Western Avenue, Olympia Fields, IL",60461,WALMART SUPER CENTER
+"17625 Torrence Avenue, Lansing, IL",60438,WALMART SUPER CENTER
+"7535 S Ashland Avenue, Chicago, IL",60620,WALMART NEIGHBORHOOD MARKET
+"10260 S Harlem Avenue, Bridgeview, IL",60455,WALMART
+"137 W North Avenue, Northlake, IL",60164,WALMART
+"5630 W Touhy Avenue, Niles, IL",60714,WALMART
+"1460 Golf Road, Rolling Meadows, IL",60008,WALMART

@@ -1,0 +1,574 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "fotobucket app's Apis",
+        "version": "1.0.1",
+        "title": "PotoBucket",
+        "termsOfService": "http://swagger.io/terms/",
+        "contact": {
+            "email": "saeed_awan86@hotmail.com"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+        }
+    },
+    "host": "maromewatches.webexert.us",
+    "basePath": "/api",
+    "tags": [
+    {
+        "name": "Watches",
+        "description": "Everything about Watches"
+    }
+],
+    "schemes": [
+        "http"
+    ],
+    "paths": {
+        "/find-watch": {
+            "post": {
+                "tags": [
+                    "Watches"
+                ],
+                "summary": "FindWatch",
+                "description": "",
+                "operationId": "FindWatch",
+                "consumes": [
+                    "application/x-www-form-urlencoded"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "first_name",
+                        "required": true,
+                        "default":"First Name",
+                        "description": "Enter first name"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "last_name",
+                        "required": true,
+                        "default":"Last Name",
+                        "description": "Enter last name"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "email",
+                        "required": true,
+                        "default":"test@test.com",
+                        "description": "Enter email"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "phone_number",
+                        "required": true,
+                        "default":"33312312312",
+                        "description": "Enter phon number"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "category_id",
+                        "required": true,
+                        "default":1,
+                        "description": "Enter category id"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "brand_id",
+                        "required": true,
+                        "default":1,
+                        "description": "Enter brand id"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "budget",
+                        "required": true,
+                        "default":525,
+                        "description": "Enter budget"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "best_time_to_contact",
+                        "required": true,
+                        "default":"05:25",
+                        "description": "Enter time"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "message",
+                        "required": true,
+                        "default":"Detail of watch",
+                        "description": "Enter message"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "file",
+                        "name": "images[]",
+                        "required": true,
+                        "description": "select upto 4 images"
+                    }
+                ],
+                "responses": {
+                    "405": {
+                        "description": "Invalid input"
+                    }
+                }
+            }
+        },
+        "/sell-watch": {
+            "post": {
+                "tags": [
+                    "Watches"
+                ],
+                "summary": "SellWatch",
+                "description": "",
+                "operationId": "SellWatch",
+                "consumes": [
+                    "application/x-www-form-urlencoded"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "first_name",
+                        "required": true,
+                        "default":"First Name",
+                        "description": "Enter first name"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "last_name",
+                        "required": true,
+                        "default":"Last Name",
+                        "description": "Enter last name"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "email",
+                        "required": true,
+                        "default":"test@test.com",
+                        "description": "Enter email"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "phone_number",
+                        "required": true,
+                        "default":"33312312312",
+                        "description": "Enter phon number"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "category_id",
+                        "required": true,
+                        "default":1,
+                        "description": "Enter category id"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "brand_id",
+                        "required": true,
+                        "default":1,
+                        "description": "Enter brand id"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "budget",
+                        "required": true,
+                        "default":525,
+                        "description": "Enter budget"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "message",
+                        "required": true,
+                        "default":"Detail of watch",
+                        "description": "Enter message"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "sell_trade",
+                        "required": true,
+                        "default":"0",
+                        "description": "0 for sell and 1 for trade"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "watch_age",
+                        "required": true,
+                        "default":"6 months",
+                        "description": "Enter watch age"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "model",
+                        "required": true,
+                        "default":"2020",
+                        "description": "enter model"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "model_number",
+                        "required": true,
+                        "default":"2020m",
+                        "description": "enter model number"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "papers",
+                        "required": true,
+                        "default":"0",
+                        "description": "0 for no and 1 for yes"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "box",
+                        "required": true,
+                        "default":"1",
+                        "description": "0 for no and 1 for yes"
+                    }
+                ],
+                "responses": {
+                    "405": {
+                        "description": "Invalid input"
+                    }
+                }
+            }
+        },
+        "/consign-watch": {
+            "post": {
+                "tags": [
+                    "Watches"
+                ],
+                "summary": "ConsignWatch",
+                "description": "",
+                "operationId": "ConsignWatch",
+                "consumes": [
+                    "application/x-www-form-urlencoded"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "first_name",
+                        "required": true,
+                        "default":"First Name",
+                        "description": "Enter first name"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "last_name",
+                        "required": true,
+                        "default":"Last Name",
+                        "description": "Enter last name"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "email",
+                        "required": true,
+                        "default":"test@test.com",
+                        "description": "Enter email"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "phone_number",
+                        "required": true,
+                        "default":"33312312312",
+                        "description": "Enter phon number"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "category_id",
+                        "required": true,
+                        "default":1,
+                        "description": "Enter category id"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "brand_id",
+                        "required": true,
+                        "default":1,
+                        "description": "Enter brand id"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "budget",
+                        "required": true,
+                        "default":525,
+                        "description": "Enter budget"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "message",
+                        "required": true,
+                        "default":"Detail of watch",
+                        "description": "Enter message"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "model",
+                        "required": true,
+                        "default":"2020",
+                        "description": "enter model"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "model_number",
+                        "required": true,
+                        "default":"2020m",
+                        "description": "enter model number"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "papers",
+                        "required": true,
+                        "default":"0",
+                        "description": "0 for no and 1 for yes"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "box",
+                        "required": true,
+                        "default":"1",
+                        "description": "0 for no and 1 for yes"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "serial_number",
+                        "required": true,
+                        "default":"sn1256",
+                        "description": "Enter serial number"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "file",
+                        "name": "images[]",
+                        "required": true,
+                        "description": "select upto 4 images"
+                    }
+                ],
+                "responses": {
+                    "405": {
+                        "description": "Invalid input"
+                    }
+                }
+            }
+        },
+        "/brands": {
+            "get": {
+                "tags": [
+                    "Config"
+                ],
+                "summary": "brands",
+                "description": "",
+                "operationId": "brands",
+                "consumes": [
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                ],
+                "responses": {
+                    "405": {
+                        "description": "Invalid input"
+                    }
+                }
+            }
+        },
+        "/categories": {
+            "get": {
+                "tags": [
+                    "Config"
+                ],
+                "summary": "categories",
+                "description": "",
+                "operationId": "categories",
+                "consumes": [
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                ],
+                "responses": {
+                    "405": {
+                        "description": "Invalid input"
+                    }
+                }
+            }
+        },
+          "/get-generic-data": {
+            "get": {
+                "tags": [
+                    "Config"
+                ],
+                "summary": "get-generic_data",
+                "description": "",
+                "operationId": "get-generic_data",
+                "consumes": [
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                ],
+                "responses": {
+                    "405": {
+                        "description": "Invalid input"
+                    }
+                }
+            }
+        },
+        "/products": {
+            "post": {
+                "tags": [
+                    "Products"
+                ],
+                "summary": "Products",
+                "description": "",
+                "operationId": "Products",
+                "consumes": [
+                    "application/x-www-form-urlencoded"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "category_id",
+                        "required": true,
+                        "default":1,
+                        "description": "Enter Category ID"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "brand_id",
+                        "required": true,
+                        "default":1,
+                        "description": "Enter Brand ID"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "how_many_show",
+                        "required": true,
+                        "default":12,
+                        "description": "Enter How many show on product page"
+                    },
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "sort_by",
+                        "required": true,
+                        "default":2,
+                        "description": "Enter sort by"
+                    }
+                ],
+                "responses": {
+                    "405": {
+                        "description": "Invalid input"
+                    }
+                }
+            }
+        },
+        "/search_products": {
+            "post": {
+                "tags": [
+                    "Products"
+                ],
+                "summary": "Products",
+                "description": "",
+                "operationId": "Products",
+                "consumes": [
+                    "application/x-www-form-urlencoded"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "formData",
+                        "type": "string",
+                        "name": "title",
+                        "required": true,
+                        "default":1,
+                        "description": "Enter Category ID"
+                    }
+                ],
+                "responses": {
+                    "405": {
+                        "description": "Invalid input"
+                    }
+                }
+            }
+        }
+      
+    }, 
+    "securityDefinitions": {
+        "petstore_auth": {
+            "type": "oauth2",
+            "authorizationUrl": "",
+            "flow": "implicit",
+            "scopes": {
+                "write:pets": "",
+                "read:pets": ""
+            }
+        },
+        "api_key": {
+            "type": "apiKey",
+            "name": "api_key",
+            "in": "header"
+        }
+    },
+    "definitions": {
+       
+        
+
+    }
+}
